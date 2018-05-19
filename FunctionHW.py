@@ -34,16 +34,7 @@ def multiply(nums):
 	return out
 	
 def palindrome(word):
-	words = list(word)
-	if len(word)<=1:
-		return True
-	for i in range(0,len(words)):
-		if words[0] == words[len(words)-1]:
-			words.pop()
-			words.pop(0)
-			if len(words)<=1:
-				return True
-	return False
+	return word == word[::-1]
 	
 def pangram(input):
 	letters = list('abcdefghijklmnopqrstuvwxyz')
