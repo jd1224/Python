@@ -1,2 +1,6 @@
+from Circle import Circle
 
-help(len)
+myCircle = Circle(2)
+
+print (myCircle)
+print (myCircle.get_circumference())
