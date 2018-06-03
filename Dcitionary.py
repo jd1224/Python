@@ -11,7 +11,7 @@ pricesLookup = {'apple':2.99, 'oranges':1.99,'milk':5.80}
 
 myDict1 = {'key1':['a','b','c'],'key2':'j'}
 
-print (myDict.items())
+print (myDict1['key1'])
 
 
 
